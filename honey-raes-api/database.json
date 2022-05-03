@@ -65,12 +65,12 @@
         {
             "id": 1,
             "name": "Tom Schamberger",
-            "specialty": "iPhone"
+            "specialty": ["iPhone", "iPad"]
         },
         {
             "id": 2,
             "name": "Rose Schmitt",
-            "specialty": "Printers"
+            "specialty": ["Printers", "Scanners"]
         }
     ],
     "serviceTickets": [

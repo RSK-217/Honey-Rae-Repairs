@@ -29,7 +29,7 @@ export const CustomerList = () => {
     return (
     <>
         <div>{totalCustomerMessage}</div>
-        { customers.map((customerObject) => {
+        { customers.slice(0, 5).map((customerObject) => {
         return <h2 key={`customer--${customerObject.id}`}>{customerObject.name}</h2>
         })}
     </>
